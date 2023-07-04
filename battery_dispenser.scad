@@ -24,6 +24,7 @@ Screw_Head_Diameter = 9.38;
 /* [Advanced Parameters] */
 // The name font
 Name_Font = "Courier 10 Pitch:style=Bold";
+Font_Size = 3.5;
 
 // The height of the name plaques at the top of each column (0 for no plaque)
 Name_Plaque_Height = 3.501;
@@ -172,8 +173,7 @@ module Generate_TubeBatteryColumn(battery_name)
             translate([name_x_offset, name_y_offset, name_z_offset])
             rotate([90, 0, 0])
             linear_extrude(Name_Inset + iota)
-            resize([0, Name_Plaque_Height, 0], auto=true)
-                text(battery_name, 10, Name_Font, halign="center", valign="center");
+            text(battery_name, Font_Size, Name_Font, halign="center", valign="center");
         }
     }
 }
@@ -259,8 +259,7 @@ module Generate_RectangleBatteryColumn(battery_name)
             translate([name_x_offset, name_y_offset, name_z_offset])
             rotate([90, 0, 0])
             linear_extrude(Name_Inset + iota)
-            resize([0, Name_Plaque_Height, 0], auto=true)
-                text(battery_name, 10, Name_Font, halign="center", valign="center");
+            text(battery_name, Font_Size, Name_Font, halign="center", valign="center");
         }
     }
 }
