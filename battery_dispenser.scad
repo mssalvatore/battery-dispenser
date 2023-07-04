@@ -333,7 +333,7 @@ function SumVector(v, i = 0) =
 
 
 
-$fn = Quality == "final" ? 128 : 32;
+$fn = Quality == "final" ? 256 : 32;
 iota = 0.001;
 
 BatteryLib_Heights = [for (battery_name = Battery_List) BatteryLib_Height(battery_name) ];
