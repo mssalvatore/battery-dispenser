@@ -104,6 +104,17 @@ BatteryLib_Dimensions =
     ],
 
     [
+        "CR123A",
+        "tube",
+        16.90,  // Body diameter
+        33.00,  // Body height
+        12.10,  // Cathode diameter
+         0.00,  // Cathode height
+         6.35,  // Anode diameter
+         1.30,  // Anode height
+    ],
+
+    [
         "D",
         "tube",
         34.20,  // Body diameter
