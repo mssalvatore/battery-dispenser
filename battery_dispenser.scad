@@ -150,7 +150,7 @@ module Generate_TubeBatteryColumn(battery_name)
 
         // Create an access opening at the bottom front of the column
         access_width = hollow_width;
-        access_depth = column_depth/3;
+        access_depth = column_depth/4;
         access_height = Wall_Thickness + iota*2 + hollow_width/2;
         access_x_offset = Wall_Thickness;
         access_y_offset = -iota;
@@ -236,7 +236,7 @@ module Generate_RectangleBatteryColumn(battery_name)
 
         // Create an access opening at the bottom front of the column
         access_width = hollow_width;
-        access_depth = column_depth/3;
+        access_depth = column_depth/4;
         access_height = Wall_Thickness + iota*2 + hollow_width/2;
         access_x_offset = Wall_Thickness;
         access_y_offset = -iota;
