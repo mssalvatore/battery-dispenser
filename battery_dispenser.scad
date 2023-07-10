@@ -11,6 +11,8 @@
 /* [Basic Parameters] */
 // A list of the batteries to generate for ("AAA", "AA", "C", "D", and "9V")
 Battery_List = ["AAA", "AA","CR123A", "9V"];
+// Dad's
+//Battery_List = ["AAA", "AA","AA", "9V"];
 
 // The height of the holder
 Holder_Height = 147.01;
